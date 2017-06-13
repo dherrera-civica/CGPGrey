@@ -158,3 +158,20 @@
     font-size: 26px;
   }
 }
+
+.color-button{
+  color: white;
+}
+
+hr {
+  border-color: black;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: gray;
+}
+
+.section-about{
+  padding-top: 30px; 
+}
