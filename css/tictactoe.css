@@ -1,5 +1,5 @@
 .row_background{
-    background: blue;    ;
+    background: lightblue;    ;
 
 }
 
@@ -62,4 +62,20 @@
     height: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.ocupada{
+    background-image: url("../img/duck.png");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+}
+
+.ocupada_1{
+    background-image: url("../img/duck1.png");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+}
+
+.reset_button{
+    color: lightyellow;
 }
