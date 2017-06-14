@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/tictactoe.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 row_background">
+                    <table class="background">
+                        <tr>
+                            <td class="td_s_i" id="td_s_i"></td>
+                            <td class="td_s_m" id="td_s_m"></td>
+                            <td class="td_s_d" id="td_s_d"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_m_i" id="td_m_i"></td>
+                            <td class="td_m_m" id="td_m_m"></td>
+                            <td class="td_m_d" id="td_m_d"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_a_i" id="td_a_i"></td>
+                            <td id="td_a_m"></td>
+                            <td class="td_a_d" id="td_a_d"></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+            $("#td_s_i").click(function(e){
+                if($("#td_s_i").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_s_m").click(function(e){
+               if($("#td_s_m").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_s_d").click(function(e){
+                if($("#td_s_d").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_m_i").click(function(e){
+               if($("#td_m_i").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_m_m").click(function(e){
+                if($("#td_m_m").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_m_d").click(function(e){
+                if($("#td_m_d").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_a_i").click(function(e){
+                if($("#td_a_i").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+            $("#td_a_d").click(function(e){
+                if($("#td_a_d").hasClass("Ocupada")){
+                    alert ("Ocupado");
+                }
+                else{
+                    alert("No ocupado");
+                }
+                });
+        </script>
+    </body>
+</html>
